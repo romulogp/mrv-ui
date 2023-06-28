@@ -1,0 +1,35 @@
+.login-form-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    $fontSize: 60px;
+
+    font-size: $fontSize;
+    line-height: $fontSize;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  &__subtitle {
+    font-size: inherit;
+    margin-bottom: 10px;
+  }
+}
+
+.login-form {
+  max-width: 300px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}

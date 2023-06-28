@@ -9,7 +9,7 @@ export const LoginRoutes = () => {
     <Switch>
       <Route
         exact
-        path={PATH.MAP}
+        path={PATH.LOGIN}
         component={() => (
           <Suspense fallback={<Loading />}>
             <LoginPage />

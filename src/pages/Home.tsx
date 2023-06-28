@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import 'src/assets/scss/home.scss';
 import { MainLayout } from 'src/layouts/MainLayout';
 import { LandingPage } from 'src/components/LandingPage';
 import { IHelmet } from 'src/layouts/MainLayout';
+import 'src/assets/scss/home.scss';
 
 const initHelmet: IHelmet = {
   isRoot: true,
