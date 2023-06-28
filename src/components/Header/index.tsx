@@ -30,12 +30,14 @@ export const AppHeader = () => {
         <div className="mobileHidden">
           <Anchor targetOffset={targetOffset}>
             <Link href="#home" title="Home" />
-            <Link href="#about" title="About" />
-            <Link href="#feature" title="Features" />
-            <Link href="#works" title="How it works" />
+            <Link href="#about" title="Sobre" />
+            <Link href="#feature" title="Recursos" />
+            <Link href="#works" title="Como funciona" />
             <Link href="#faq" title="FAQ" />
-            <Link href="#pricing" title="Pricing" />
-            <Link href="#contact" title="Contact" />
+            <Link href="#pricing" title="Preços" />
+            <Link href="#contact" title="Contato" />
+            <Link href="/consultation" title="Consultas" />
+            <Link href="/login" title="Login" />
           </Anchor>
         </div>
         <div className="mobileVisible">
@@ -50,12 +52,14 @@ export const AppHeader = () => {
           >
             <Anchor targetOffset={targetOffset}>
               <Link href="#home" title="Home" />
-              <Link href="#about" title="About" />
-              <Link href="#feature" title="Features" />
-              <Link href="#works" title="How it works" />
+              <Link href="#about" title="Sobre" />
+              <Link href="#feature" title="Recursos" />
+              <Link href="#works" title="Como funciona" />
               <Link href="#faq" title="FAQ" />
-              <Link href="#pricing" title="Pricing" />
-              <Link href="#contact" title="Contact" />
+              <Link href="#pricing" title="Preços" />
+              <Link href="#contact" title="Contato" />
+              <Link href="/consultation" title="Consultas" />
+              <Link href="/login" title="Login" />
             </Anchor>
           </Drawer>
         </div>
