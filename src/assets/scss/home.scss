@@ -1,3 +1,7 @@
+$header-padding: 15px;
+$header-logo-size: 22px;
+$header-size: $header-padding + 2 * $header-padding;
+
 /* 
 general 
 -------
@@ -25,6 +29,11 @@ body {
   padding: 0;
   height: auto;
   line-height: 1.6;
+}
+
+.mainLayout .ant-layout-content {
+
+  margin-top: $header-size;
 }
 
 p {
@@ -83,6 +92,7 @@ header
 
 .header .logo {
   font-size: 22px;
+  line-height: 22px;
   text-transform: uppercase;
   font-weight: 400;
 }
