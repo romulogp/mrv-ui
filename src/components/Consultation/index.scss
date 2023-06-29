@@ -1,0 +1,32 @@
+.consultation {
+
+  &__search-fields {
+    display: flex;
+    justify-content: flex-end;
+
+    *+* {
+      margin-left: 10px;
+    }
+  }
+
+  &__input-code {
+    max-width: 200px;
+  }
+
+  &__input-name {
+    max-width: 300px;
+  }
+
+  &__search-btn {
+    min-width: 32px;
+  }
+
+  &__result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 32px;
+  }
+
+}

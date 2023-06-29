@@ -25,7 +25,10 @@ const services = [
           id: 2,
           descricao:
             'Valores pagos a outras PJ, referente a serviços profissionais na elaboração e customização de programas de softwares exclusivos, há retenção de IRRF e CSRF, exclui-se aqui os softwares e customização gerais chamados de prateleiras.',
-          natureza: 14,
+          natureza: {
+            id: 14,
+            nome: 'Serviços profissionais',
+          },
         },
         base_legal: {
           id: 2,
@@ -33,7 +36,7 @@ const services = [
             'Art. 2º do Decreto-Lei nº 2.030/1983; Art. 1º, inciso III, do Decreto-Lei nº 2.065/1983; Art. 52 da Lei nº 7.450/1985; 11.196/2005. Art. 714 do RIR/2018.',
           natureza: {
             id: 11,
-            nome: '',
+            nome: 'N/A',
           },
         },
         retencao: {
@@ -51,7 +54,10 @@ const services = [
           id: 3,
           descricao:
             'Nos casos que só há armazenagem de dados onde não precisa de um serviço profissional envolvido não há retenção. Porém caso tenha serviço professional envolvido como assessoria e consultoria técnica e publicidade há retenção de IRRF',
-          natureza: 11,
+          natureza: {
+            id: 11,
+            nome: 'N/A',
+          },
         },
         base_legal: {
           id: 3,
@@ -59,7 +65,7 @@ const services = [
             'Art. 30 a 36 da Lei nº 10.833/2003; Instrução Normativa SRF nº 459/2004 e Solução de Consulta COSIT nº 407/2017.',
           natureza: {
             id: 11,
-            nome: '',
+            nome: 'N/A',
           },
         },
         retencao: {
@@ -78,6 +84,7 @@ const services = [
           descricao: 'Não há previsão para retenção tributos',
           natureza: {
             id: 14,
+            nome: 'Serviços profissionais',
           },
         },
         base_legal: {
@@ -86,7 +93,7 @@ const services = [
             'Não há previsão na legislação para a retenção, As legislações que tratam de quando há retenção não mencionam este serviço.',
           natureza: {
             id: 14,
-            nome: '',
+            nome: 'Serviços profissionais',
           },
         },
         retencao: {
@@ -103,7 +110,10 @@ const services = [
         informacao_tributaria: {
           id: 1,
           descricao: 'Não há previsão para retenção tributos',
-          natureza: 14,
+          natureza: {
+            id: 14,
+            nome: 'Serviços profissionais',
+          },
         },
         base_legal: {
           id: 1,
@@ -111,7 +121,7 @@ const services = [
             'Não há previsão na legislação para a retenção, As legislações que tratam de quando há retenção não mencionam este serviço.',
           natureza: {
             id: 14,
-            nome: '',
+            nome: 'Serviços profissionais',
           },
         },
         retencao: {
