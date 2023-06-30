@@ -12,7 +12,7 @@ const Tribute = ({ tribute }) => {
     retencao = {},
   } = tribute;
   return (
-    <Card title={nome} className="tribute" type="inner" size="small">
+    <Card title={nome} bordered className="tribute" type="inner" size="small">
       <Descriptions>
         <Item label="Descrição">{informacao_tributaria.descricao}</Item>
       </Descriptions>

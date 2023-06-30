@@ -1,4 +1,16 @@
 .service {
   display: flex;
   flex-wrap: wrap;
+
+  &__tribute-container {
+    $items-spacing: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: $items-spacing;
+
+    .tribute {
+      flex-basis: calc(50% - #{$items-spacing});
+    }
+  }
 }

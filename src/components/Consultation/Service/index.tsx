@@ -29,7 +29,7 @@ const Service = ({ service }) => {
       </Descriptions>
 
       <Descriptions title="Tributações:"></Descriptions>
-      {renderTributes()}
+      <div className="service__tribute-container">{renderTributes()}</div>
     </Card>
   ) : (
     <Empty description="Não há dados" />
