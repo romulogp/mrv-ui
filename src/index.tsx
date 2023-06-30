@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'antd/dist/antd.css';
-import 'src/assets/scss/index.scss';
-import App from 'src/App/App';
 import reportWebVitals from './reportWebVitals';
 import { HelmetProvider } from 'react-helmet-async';
+import App from 'src/App/App';
+import 'antd/dist/antd.css';
+import 'src/assets/scss/index.scss';
+import 'src/assets/scss/app.scss';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,9 +1,13 @@
 import React from 'react';
-import { Empty } from 'antd';
+import { Card, Descriptions, Empty } from 'antd';
 import { Tribute } from '../Tribute';
 import './index.scss';
 
+const { Item } = Descriptions;
+
 const Service = ({ service }) => {
+  const { nome, codigo, informacao_geral = {} } = service || {};
+
   const getTributesByPresentationOrder = () => {
     return (
       service?.tributos?.sort((t1, t2) => {
@@ -12,16 +16,21 @@ const Service = ({ service }) => {
     );
   };
 
-  return service ? (
-    <div className="servico">
-      <p>Nome: {service.nome || '-'}</p>
-      <p>Informações do serviço: {service.informacao_geral || '-'}</p>
+  const renderTributes = () =>
+    getTributesByPresentationOrder().map(t => (
+      <Tribute key={t.id} tribute={t} />
+    ));
 
-      <div>Tributos:</div>
-      {getTributesByPresentationOrder().map(t => (
-        <Tribute key={t.id} tribute={t} />
-      ))}
-    </div>
+  return service ? (
+    <Card className="service">
+      <Descriptions title={codigo + ' - ' + nome}></Descriptions>
+      <Descriptions>
+        <Item label="Informações do serviço">{informacao_geral}</Item>
+      </Descriptions>
+
+      <Descriptions title="Tributações:"></Descriptions>
+      {renderTributes()}
+    </Card>
   ) : (
     <Empty description="Não há dados" />
   );
