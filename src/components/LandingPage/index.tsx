@@ -12,11 +12,10 @@ export const LandingPage = () => {
     <div className="main">
       <Home />
       <About />
-      <Feature />
-      <Work />
+
       <FAQ />
-      <Pricing />
-      <Contact />
+
+      <footer />
     </div>
   );
 };

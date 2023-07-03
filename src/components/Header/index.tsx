@@ -25,17 +25,14 @@ export const AppHeader = () => {
     <div className="container-fluid">
       <div className="header">
         <div className="logo">
-          <a href="/">MRV</a>
+          <a href="/">MRV</a> <br />
+          <h1>Consultoria Tributária</h1>
         </div>
         <div className="mobileHidden">
           <Anchor targetOffset={targetOffset}>
             <Link href="#home" title="Home" />
             <Link href="#about" title="Sobre" />
-            <Link href="#feature" title="Recursos" />
-            <Link href="#works" title="Como funciona" />
             <Link href="#faq" title="FAQ" />
-            <Link href="#pricing" title="Preços" />
-            <Link href="#contact" title="Contato" />
             <Link href="/consultation" title="Consultas" />
             <Link href="/login" title="Login" />
           </Anchor>
@@ -53,11 +50,9 @@ export const AppHeader = () => {
             <Anchor targetOffset={targetOffset}>
               <Link href="#home" title="Home" />
               <Link href="#about" title="Sobre" />
-              <Link href="#feature" title="Recursos" />
-              <Link href="#works" title="Como funciona" />
+
               <Link href="#faq" title="FAQ" />
-              <Link href="#pricing" title="Preços" />
-              <Link href="#contact" title="Contato" />
+
               <Link href="/consultation" title="Consultas" />
               <Link href="/login" title="Login" />
             </Anchor>

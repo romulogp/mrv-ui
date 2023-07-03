@@ -5,23 +5,23 @@ const initItems = [
   {
     key: '1',
     icon: <i className="fas fa-chart-pie"></i>,
-    title: 'High Performance',
+    title: 'Legislação',
     content:
-      'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+      'Proporcionar uma ferramenta de consultoria tributária Acessivel quando você mais precisa. Cuide de seu negócio deixe, as rotinas de atualizações tributárias conosco.',
   },
   {
     key: '2',
     icon: <i className="fas fa-desktop"></i>,
-    title: 'Flat Design',
+    title: 'Ferramenta',
     content:
-      'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+      'Não importa a dúvida trabalharemos para lhe ajudar, levando a informação até você, auxiliando no que diz respeito  a duvidas sobre retenções tributárias em notas fiscais de serviço.',
   },
   {
     key: '3',
     icon: <i className="fas fa-database"></i>,
-    title: 'Simplified Workflow',
+    title: 'Banco de Dados',
     content:
-      'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+      'Um Banco de dados sempre atualizado, prevendo situações tributárias sobre retenção de serviços, em breve mais serviços para atender a demanda de nossos parceiros.',
   },
 ];
 
@@ -37,19 +37,22 @@ export const About = () => {
           <a className="block-anchor" id="about" href="!#">
             Pseudo anchor
           </a>
-          <h2>About Us</h2>
-          <p>dolor sit amet, consectetur adipisicing elit</p>
+          <h2>Quem Somos</h2>
+          <h2>Somos uma empresa que acredita na colaboração</h2>
         </div>
         <div className="contentHolder">
+          <img
+            src="https://static.vecteezy.com/ti/fotos-gratis/p1/5535242-empresas-usando-um-computador-para-completar-individuo-imposto-retorno-formulario-on-line-para-pagamento-de-impostos-governo-estado-taxes-analise-de-dados-papelada-financeira-pesquisa-relatorio-calculo-declaracao-de-imposto-foto.jpg"
+            alt="quem somos"
+          />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
-            necessitatibus officiis repudiandae est deserunt delectus dolorem
-            iure porro distinctio fuga, nostrum doloremque. Facilis porro in
-            laborum dolor amet ratione hic? Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Magnam aut a porro, adipisci quidem
-            sint enim pariatur ducimus, saepe voluptatibus inventore commodi!
-            Quis, explicabo molestias libero tenetur temporibus perspiciatis
-            deserunt.
+            Atender toda a legislação e acompanhar as mundanças, verdadeiramente
+            não é uma tarefa facil. Por isso acreditamos na parceiria, onde
+            auxiliamos empresas pareceiras a atenderem a legislação, tando dando
+            suporte com um banco de dados sempre atualizado, mas também nos
+            colocando a disposição para tirar duvidas, e elaborar materias que
+            sejam relevantes para propagar informação, auxiliando a atenderem a
+            legislação e ajudar em seus treinamentos de funcionários.
           </p>
         </div>
         <Row gutter={[16, 16]}>

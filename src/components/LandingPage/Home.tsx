@@ -4,21 +4,17 @@ import { Button, Carousel } from 'antd';
 const initItems = [
   {
     key: '1',
-    title: 'Web and mobile payment built for developers',
+    title: 'Precisando realizar um consultoria tributária?',
     content:
-      'An vim odio ocurreret consetetur, justo constituto ex mea. Quidam facilisis vituperata pri ne. Id nostrud gubergren urbanitas sed, quo summo animal qualisque ut, cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
-  },
+      'Venha ser parceiro de quem entende do assunto, temos um time especializado para te ajudar.',
+  
+    
+    },
   {
     key: '2',
-    title: 'Work better together. Schedule meetings',
+    title: 'Tem algumas duvidas sobre Retenção de serviços?',
     content:
-      'An vim odio ocurreret consetetur, justo constituto ex mea. Quidam facilisis vituperata pri ne. Id nostrud gubergren urbanitas sed, quo summo animal qualisque ut, cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
-  },
-  {
-    key: '3',
-    title: 'The best app to increase your productivity',
-    content:
-      'An vim odio ocurreret consetetur, justo constituto ex mea. Quidam facilisis vituperata pri ne. Id nostrud gubergren urbanitas sed, quo summo animal qualisque ut, cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+      'Consulte nosso nosso material das principais dúvidas encontradas a respeito de retenção de serviços. Venha conferir  .',
   },
 ];
 
@@ -40,10 +36,7 @@ export const Home = () => {
                 <p>{item.content}</p>
                 <div className="btnHolder">
                   <Button type="primary" size="large">
-                    Learn More
-                  </Button>
-                  <Button size="large">
-                    <i className="fas fa-desktop"></i> Watch a Demo
+                    Faça uma consulta tributária
                   </Button>
                 </div>
               </div>
