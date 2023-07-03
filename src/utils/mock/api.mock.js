@@ -1,5 +1,9 @@
 import { DATABASE } from './database.mock';
 
+function createResponseBody(content) {
+  return { content };
+}
+
 function register({ email, password, passwordConfirmation }) {
   return new Promise((resolve, reject) => {
     const { users } = DATABASE;
@@ -34,7 +38,7 @@ function login(email, senha) {
 function searchService(code, name) {
   return new Promise(resolve => {
     const { services } = DATABASE;
-    const serviceFound = services.find(s => {
+    const servicesFound = services.filter(s => {
       if (code && name) {
         return s.codigo.includes(code) && s.nome.includes(name);
       }
@@ -44,7 +48,7 @@ function searchService(code, name) {
       return s.nome.includes(name);
     });
 
-    resolve(serviceFound);
+    resolve(createResponseBody(servicesFound));
   });
 }
 
