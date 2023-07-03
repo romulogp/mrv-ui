@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { IHelmet, MainLayout } from 'src/layouts/MainLayout';
 import { Consultation } from 'src/components/Consultation';
 import 'src/assets/scss/home.scss';

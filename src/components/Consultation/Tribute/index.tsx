@@ -13,6 +13,7 @@ const Tribute = ({ tribute }) => {
   } = tribute;
   return (
     <Card title={nome} bordered className="tribute" type="inner" size="small">
+      <Descriptions title="Informações Tributárias"></Descriptions>
       <Descriptions>
         <Item label="Descrição">{informacao_tributaria.descricao}</Item>
       </Descriptions>

@@ -1,16 +1,23 @@
-.service {
+.services-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
 
-  &__tribute-container {
-    $items-spacing: 10px;
-
+  .service {
     display: flex;
     flex-wrap: wrap;
-    gap: $items-spacing;
 
-    .tribute {
-      flex-basis: calc(50% - #{$items-spacing});
+    &__tribute-container {
+      $items-spacing: 10px;
+
+      display: flex;
+      flex-wrap: wrap;
+      gap: $items-spacing;
+
+      .tribute {
+        flex-basis: calc(50% - #{$items-spacing});
+      }
     }
   }
+
 }
